@@ -1,4 +1,4 @@
-name: FreeRDP
+apname: FreeRDP
 
 on: workflow_dispatch
 
@@ -36,4 +36,3 @@ jobs:
       run: | 
         Invoke-WebRequest https://github.com/kajal99owner/RDP-RookieX/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
-        
